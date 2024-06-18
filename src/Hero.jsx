@@ -5,7 +5,7 @@ function Hero() {
     <section className="hero">
       <div className="hero-content">
         <div className="hero-text">
-          <h1>Hi i'm Shibu</h1>
+          <h1>Hi i'm HttpError</h1>
           <p>
             I'm a rich scholar, got the city shook <br></br>I make top dollar
             like a white-collar crook <br></br>Keep a white collar, black forces
