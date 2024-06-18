@@ -23,7 +23,16 @@ const Header = () => {
   return (
     <header className={`header ${isScrolled ? "scrolled" : ""}`}>
       <nav className="nav">
-        <p>Logo</p>
+        <div className="nav-left-bar">
+          <div className="nav-image">
+            <img
+              src="https://cdn.discordapp.com/avatars/546690021571297280/52433392d835f179384068db90cb8122.png?size=512"
+              alt="HttpError"
+            />
+          </div>
+          <p>Portfolio</p>
+        </div>
+
         <ul className="nav-links">
           <li>
             <a href="#home">Home</a>
