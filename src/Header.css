@@ -1,0 +1,50 @@
+.header {
+  position: fixed;
+  left: 0px;
+  top: 0;
+  width: 100%;
+  padding: 0px 20px; /* Adjust padding to your liking */
+  transition: background-color 0.3s ease;
+  z-index: 1000;
+}
+
+.header.scrolled {
+  background-color: black;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px; /* Adjust the max-width if needed */
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.nav h1 {
+  color: white;
+  margin: 0;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
