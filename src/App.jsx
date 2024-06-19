@@ -2,6 +2,7 @@ import "./App.css";
 import Header from "./Header";
 import Hero from "./Hero";
 import Carousel from "./Carousel";
+import ReactiveCircle from "./ReactiveCircle";
 
 function App() {
   const cards = [
@@ -16,6 +17,7 @@ function App() {
       <Header />
       <Hero />
       <Carousel cards={cards} />
+      <ReactiveCircle />
     </>
   );
 }

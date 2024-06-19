@@ -6,6 +6,13 @@
   border-radius: 10px;
   position: relative;
   width: 1200px;
+  mask-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(36, 36, 36, 1) 25%,
+    rgba(36, 36, 36, 1) 75%,
+    rgba(0, 0, 0, 0) 100%
+  );
 }
 
 .carousel-track {
