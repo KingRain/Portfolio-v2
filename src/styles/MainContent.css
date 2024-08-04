@@ -1,17 +1,32 @@
 .main-content {
-    margin-left: 320px; /* Same width as the sidebar */
-    padding: 20px;
+    margin-left: 420px; /* Same width as the sidebar */
+    padding: 0px 24px;
+    margin-top: 50px;
     width: calc(100% - 250px); /* Adjust width */
     scroll-behavior: smooth; /* Smooth scrolling */
+    align-items: center;
+    justify-content: center;
+    
 }
 
 section {
     margin-bottom: 100px; /* Space between sections */
 }
 
-h1 {
+h1 .hero-text{
     margin-top: 0;
-    font-family: "Jetbrains Mono", monospace;
+    font-family: "Schibsted Grotesk", sans-serif;
+}
+
+p {
+    font-family: 'Jetbrains Mono', monospace;
+}
+
+.main-content #home p {
+    margin-top: 2px;
+}
+.main-content #home h1 {
+    margin-bottom: 0px;
 }
 
 html {

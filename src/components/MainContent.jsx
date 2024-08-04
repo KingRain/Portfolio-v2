@@ -4,11 +4,11 @@ const MainContent = () => {
     return (
         <div className="main-content">
             <section id="home">
-                <h1>Home</h1>
-                <p>Welcome to the Home section.</p>
+                <h1 className='hero-txt'>Backend and frontend enthusiast.</h1>
+                <p>Currently a student at xyz 🫠</p>
             </section>
             <section id="projects">
-                <h1>Projects</h1>
+                <h1 >Projects</h1>
                 <p>Details about projects.</p>
             </section>
             <section id="tools">
