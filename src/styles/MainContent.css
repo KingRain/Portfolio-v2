@@ -1,0 +1,18 @@
+.main-content {
+    margin-left: 320px; /* Same width as the sidebar */
+    padding: 20px;
+    width: calc(100% - 250px); /* Adjust width */
+    scroll-behavior: smooth; /* Smooth scrolling */
+}
+
+section {
+    margin-bottom: 100px; /* Space between sections */
+}
+
+h1 {
+    margin-top: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
