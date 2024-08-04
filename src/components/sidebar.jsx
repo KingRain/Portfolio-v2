@@ -13,7 +13,7 @@ const Sidebar = () => {
     <div className="sidebar">
       <div className="profile">
         <img
-          src="src\assets\avatar.png"
+          src="https://cdn.discordapp.com/avatars/546690021571297280/52433392d835f179384068db90cb8122.png?size=512"
           alt="Profile"
           className="profile-image"
         />

@@ -11,25 +11,17 @@ const MainContent = () => {
                 <h1>Projects</h1>
                 <p>Details about projects.</p>
             </section>
-            <section id="shop">
-                <h1>Shop</h1>
-                <p>Information about the shop.</p>
-            </section>
-            <section id="notes">
-                <h1>Notes</h1>
-                <p>Here are some notes.</p>
-            </section>
             <section id="tools">
                 <h1>Tools</h1>
                 <p>Details about tools.</p>
             </section>
             <section id="about">
                 <h1>About</h1>
-                <p>Information about us.</p>
+                <p>Information about me.</p>
             </section>
             <section id="contact">
                 <h1>Contact</h1>
-                <p>How to contact us.</p>
+                <p>How to contact me.</p>
             </section>
         </div>
     );
