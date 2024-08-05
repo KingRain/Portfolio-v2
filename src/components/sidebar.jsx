@@ -8,6 +8,7 @@ import {
   faEnvelope,
 } from "@fortawesome/free-solid-svg-icons";
 
+
 const Sidebar = () => {
   return (
     <div className="sidebar">
