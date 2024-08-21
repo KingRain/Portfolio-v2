@@ -9,9 +9,10 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 
 
-const Sidebar = () => {
+// eslint-disable-next-line react/prop-types
+const Sidebar = ({ isVisible, toggleSidebar }) => {
   return (
-    <div className="sidebar">
+    <div className={`sidebar ${isVisible ? 'visible' : 'hidden'}`}>
       <div className="profile">
         <img
           src="https://cdn.discordapp.com/avatars/546690021571297280/52433392d835f179384068db90cb8122.png?size=512"
@@ -22,24 +23,24 @@ const Sidebar = () => {
         <p>Fullstack Devoloper</p>
       </div>
       <nav className="menu">
-        <a href="#home">
-          <FontAwesomeIcon icon={faHome} className="icon"/>
+        <a href="#home" onClick={toggleSidebar}>
+          <FontAwesomeIcon  icon={faHome} className="icon"/>
           Home
         </a>
-        <a href="#projects">
-          <FontAwesomeIcon icon={faFolder} className="icon"/>
+        <a href="#projects" onClick={toggleSidebar}>
+          <FontAwesomeIcon  icon={faFolder} className="icon"/>
           Projects
         </a>
-        <a href="#tools">
-          <FontAwesomeIcon icon={faTools} className="icon"/>
+        <a href="#tools" onClick={toggleSidebar} >
+          <FontAwesomeIcon  icon={faTools} className="icon"/>
           Tools
         </a>
-        <a href="#about">
-          <FontAwesomeIcon icon={faUser} className="icon"/>
+        <a href="#about" onClick={toggleSidebar} >
+          <FontAwesomeIcon  icon={faUser} className="icon"/>
           About
         </a>
-        <a href="#contact">
-          <FontAwesomeIcon icon={faEnvelope} className="icon"/>
+        <a href="#contact" onClick={toggleSidebar}>
+          <FontAwesomeIcon  icon={faEnvelope} className="icon"/>
           Contact
         </a>
       </nav>
