@@ -3,10 +3,10 @@ import '../styles/ContactCards.css';
 const ContactCards = () => {
     const tools = [
         {
-            name: 'Email',
-            description: 'samjoe55555@gmail.com',
-            icon: 'https://cdn-icons-png.flaticon.com/512/15465/15465653.png ',
-            link: '',
+            name: 'Github',
+            description: 'github.com/KingRain',
+            icon: '../github.svg',
+            link: 'https://github.com/KingRain',
         },
         {
             name: 'Discord',

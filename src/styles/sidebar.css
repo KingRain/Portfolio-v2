@@ -105,3 +105,22 @@
 .menu a:nth-child(7):hover ~ .menu::before {
   --i: 6;
 }
+
+.res-btn {
+  background-color: #28a745;
+  color: white;
+  padding: 10px;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  height: 40px;
+  width: 100px;
+  text-align: center;
+  font-size: 16px;
+  font-family: 'JetBrains Mono', monospace;
+}
+
+.res-btn:hover {
+  background-color: #24963e;
+  color: #ffffff;
+  transition: all 0.3s;
+}

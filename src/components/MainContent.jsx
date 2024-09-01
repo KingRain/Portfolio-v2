@@ -18,6 +18,16 @@ const MainContent = () => {
         <p>Details about some selected projects I have worked on.</p>
         <div className="container">
           <div className="card">
+            <div className="logo">W</div>
+            <div className="title">Washio</div>
+            <div className="description">
+              Wash.io is a convenient app that allows users to book a time slot
+              for using the washing machine on their floor. It is built using
+              Flutter and Supabase as backend.
+            </div>
+          </div>
+        
+          <div className="card">
             <div className="logo">S</div>
             <div className="title">Shareload</div>
             <div className="description">
@@ -37,15 +47,6 @@ const MainContent = () => {
           </div>
           <div className="card">
             <div className="logo">X</div>
-            <div className="title">Dashboard X</div>
-            <div className="description">
-              A simple site with a dashboard layout, built using HTML, CSS, and
-              JavaScript. It has a login page, a dashboard with a sidebar, and a
-              main content area.
-            </div>
-          </div>
-          <div className="card">
-            <div className="logo">W</div>
             <div className="title">DiscordWebScrapper</div>
             <div className="description">
               A simple web scrapper which scraps the messages from a discord
@@ -72,7 +73,7 @@ const MainContent = () => {
       <section id="contact">
         <h1>Contact</h1>
         <p>How to contact me.</p>
-        <ContactCards />       
+        <ContactCards />
       </section>
     </div>
   );

@@ -11,6 +11,10 @@ import {
 
 // eslint-disable-next-line react/prop-types
 const Sidebar = ({ isVisible, toggleSidebar }) => {
+  const handleResumeClick = () => {
+    alert("Oops, I havent made my resume yet. But you can check my LinkedIn profile.");
+  };
+
   return (
     <div className={`sidebar ${isVisible ? 'visible' : 'hidden'}`}>
       <div className="profile">
@@ -21,6 +25,8 @@ const Sidebar = ({ isVisible, toggleSidebar }) => {
         />
         <h2>Sam Joe</h2>
         <p>Fullstack Devoloper</p>
+        <button className="res-btn" onClick={handleResumeClick}>Resume</button>
+        
       </div>
       <nav className="menu">
         <a href="#home" onClick={toggleSidebar}>
